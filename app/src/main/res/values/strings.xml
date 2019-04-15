@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Recycler View</string>
+
+    <string name="touristText">&#160;de touristes par an</string>
+
+    <string name="places">Les principaux lieux touristiques.&#160;</string>
+
+
+    <string-array name="cities">
+        <item>Paris</item>
+        <item>Londres</item>
+        <item>Barcelone</item>
+        <item>Istanbul</item>
+        <item>Rome</item>
+    </string-array>
+
+    <string-array name="places">
+        <item>La Tour Eiffel</item>
+        <item>Big Ben</item>
+        <item>Plaça Catalunya</item>
+        <item>La Mosquée Bleue</item>
+        <item>Fontaine de Trevi</item>
+    </string-array>
+
+    <string-array name="tourists">
+        <item>30 millions</item>
+        <item>20 millions</item>
+        <item>15 millions</item>
+        <item>12 millions</item>
+        <item>10 millions</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Paris est la ville capitale et la plus grande de France. elle est située sur la Seine, dans le nord de la
+            France, au cœur de l’Île-de-France. Elle dispose de 2 millions d’habitants et est la cinquième des villes
+            les plus peuplées du monde. La ville est une des centres les plus influentes dans le monde entier, ainsi que
+            culturel, politique et économique très forte à la fois près at et près national. La ville est administrée
+            par un maire. Entouré d’un conseil municipal, il décide du budjet de la ville, des impots locaux, des grands
+            équipements d’infrastucture, de logement et de loisir. L’Hotel de Ville est le siège des institutions
+            municipales.
+        </item>
+        <item>Londres est connue pour être l’une des plus belle ville du monde, mais aussi l’une des plus diversifiée en
+            terme de culture avec 50 nationalités parlant plus de 300 langues différentes. La ville légendaire est aussi
+            renommée pour la richesse de son histoire et de sa culture qui s’étalent sur presque 2000 ans. Plusieurs
+            adjectifs peuvent caractériser la ville de Londres. Elle est fascinante (par son histoire), Délicieuse (par
+            sa cuisine), subjuguante et attirante (par ses animations et ses couleurs) mais on est surtout ébloui par sa
+            beauté.
+        </item>
+        <item>Barcelone compte aujourd\'hui 1,7 million d\'habitants, ce qui en fait la deuxième ville d\'Espagne, après
+            Madrid. Ville jeune, elle accueille un nombre important d\'étudiants venus du monde entier qui renouvellent
+            et réveillent la ville la nuit venue. Son port et son dynamisme économique en font la principale rivale de
+            la capitale madrilène. Barcelone bénéficie également d\'un véritable bouillonnement artistique. Elle a vu
+            passer de grands maîtres tels que Picasso, Dali ou le célèbre architecte Gaudí... Son caractère cosmopolite
+            lui confère le statut de pôle culturel incontournable. Mais avant tout, c\'est la capitale de la guerre de
+            Succession. ! Barcelone est fière de son identité culturelle. Les habitants parlent catalan et elle abrite
+            le siège de la Generalitat, le gouvernement autonome de la province.
+        </item>
+        <item>Sur un promontoire dominant la rive européenne du détroit du Bosphore, contrôlant ainsi le passage vers
+            l\'Asie, Istanbul est traversée par l\'estuaire de la Corne d\'Or, ce qui accentue sa position défensive.
+            Entre les Balkans et l\'Anatolie, la mer Noire et la mer Méditerranée, elle est à la croisée des routes
+            terrestres et maritimes. Le coeur de la ville, à l\'est, est entouré d\'eau sur trois de ses côtés; et un
+            rempart (413, modifié par la suite) marque la limite terrestre de Constantinople. On la disait, comme Rome,
+            construite sur sept collines. À l\'époque, un lieu précis marquait, au coeur de la ville, le point de départ
+            des routes terrestres de l\'Empire; et une artère traversait la ville d\'est en ouest, se ramifiant vers les
+            portes. Aujourd\'hui encore, au milieu d\'un tracé urbain serré, on distingue une telle armature.
+        </item>
+        <item>Rome, surnommée la « Ville éternelle », est la capitale de l\'Italie, chef-lieu de la région du Latium.
+            Elle compte environ 2,5 millions d\'habitants. C\'est la plus grande ville d\'Italie. Capitale de l\'Empire
+            Romain pendant l\'Antiquité et siège du Vatican, Rome a exercé une grande influence dans l\'histoire du
+            monde. Le Risorgimento la fait devenir la capitale de l\'Italie et le siège des institutions publiques. Rome
+            est une des grandes places économiques de l\'Italie (avec Milan) et de nombreuses entreprises y ont leur
+            siège. C\'est aussi un important centre médiatique du pays (journaux, radios, chaînes de télévision...)
+        </item>
+    </string-array>
+</resources>
