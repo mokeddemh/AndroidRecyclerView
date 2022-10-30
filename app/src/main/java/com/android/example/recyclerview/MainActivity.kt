@@ -1,25 +1,28 @@
 package com.android.example.recyclerview
 
-import android.support.v7.app.AppCompatActivity
+
 import android.os.Bundle
-import android.support.v7.widget.GridLayoutManager
-import entity.City
-import kotlinx.android.synthetic.main.activity_main.*
-import android.support.v7.widget.DividerItemDecoration
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.android.example.recyclerview.databinding.ActivityMainBinding
 
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
 
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-        recyclerView.adapter = CityAdapter(this,loadData())
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
+        binding.recyclerView.layoutManager = LinearLayoutManager(this)
+        binding.recyclerView.adapter = CityAdapter(this,loadData())
         val itemDecor = DividerItemDecoration(this,1)
-        recyclerView.addItemDecoration(itemDecor)
+        binding.recyclerView.addItemDecoration(itemDecor)
 
     }
 

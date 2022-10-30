@@ -1,4 +1,4 @@
-package entity
+package com.android.example.recyclerview
 
 /**
  * Created by hakim on 3/11/18.
